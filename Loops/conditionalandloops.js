@@ -1,24 +1,22 @@
-// Inside the loop, write an if-else statement, which will check the following conditions:
+/*
+Inside the loop, write an if-else statement, which will check the following conditions:
+First, it will check if the value of i is 1. If it is, your code will console log the string "Gold medal".
+Next, I will check if the value of i is 2. If it is, your code will console log the string "Silver medal".
+Then, your code will check if the value of i is 3. If it is, it will console log the string "Bronze medal".
+For all the remaining values of i, your code will console log just the value of i.
 
-// First, it will check if the value of i is 1. If it is, your code will console log the string "Gold medal".
-
-// Next, I will check if the value of i is 2. If it is, your code will console log the string "Silver medal".
-
-// Then, your code will check if the value of i is 3. If it is, it will console log the string "Bronze medal".
-
-// For all the remaining values of i, your code will console log just the value of i.
-
-// Note: The expected console log of the entire code should be as follows.
-// Gold medal
-// Silver medal
-// Bronze medal
-// 4
-// 5
-// 6
-// 7
-// 8
-// 9
-// 10
+Note: The expected console log of the entire code should be as follows.
+Gold medal
+Silver medal
+Bronze medal
+4
+5
+6
+7
+8
+9
+10
+*/
 
 
 for (var i = 1; i < 11; i++) {
@@ -55,3 +53,4 @@ for (var i = 1; i < 11; i++) {
             console.log(i);
     }
 }
+
